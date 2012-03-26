@@ -609,7 +609,7 @@
   pages = {467--475},
   number = {5},
   file = {:forget2006cst.pdf:PDF},
-  keywords = {coarse  mesh, response matrix},
+  keywords = {coarse mesh, response matrix},
   owner = {Jeremy Roberts},
   publisher = {Elsevier},
   timestamp = {2009.12.02}
@@ -680,9 +680,7 @@
 	advantage of the efficient quarter core two dimensional (2D) calculations,
 	using the Haling technique to perform thousands of LPs evaluations
 	and obtain the better candidates in a reasonably computer processor
-	(CPU) time.
-	
-	},
+	(CPU) time. },
   publisher = {Elsevier}
 }
 
@@ -850,6 +848,19 @@
   file = {:harms2004eio.pdf:PDF}
 }
 
+@ARTICLE{hino2010bwr,
+  author = {Hino, T. and Ishii, K. and Mitsuyasu, T. and Aoyama, M.},
+  title = {{BWR Core Simulator using Three-dimensional Direct Response Matrix
+	and Analysis of Cold Critical Experiments}},
+  journal = {Journal of Nuclear Science and Technology},
+  year = {2010},
+  volume = {47},
+  pages = {482--491},
+  number = {5},
+  keywords = {response matrix},
+  publisher = {Taylor \& Francis}
+}
+
 @ARTICLE{hueso2009mnm,
   author = {Hueso, J.L. and Mart{\'\i}nez, E. and Torregrosa, J.R.},
   title = {{Modified Newton's Method for Systems of Nonlinear Equations with
@@ -911,6 +922,32 @@
   owner = {Jeremy Roberts},
   revision = {2},
   timestamp = {2008.11.19}
+}
+
+@ARTICLE{ishii2009tdd,
+  author = {Ishii, K. and Hino, T. and Mitsuyasu, T. and Aoyama, M.},
+  title = {{Three-Dimensional Direct Response Matrix Method Using A Monte Carlo
+	Calculation}},
+  journal = {Journal of Nuclear Science and Technology},
+  year = {2009},
+  volume = {46},
+  pages = {259--267},
+  number = {3},
+  keywords = {response matrix},
+  publisher = {J-STAGE}
+}
+
+@ARTICLE{ishii2012amc,
+  author = {Ishii, K. and Mitsuyasu, T. and Hino, T. and Aoyama, M.},
+  title = {{Analysis Of The MOX Critical Experiments Basala By Pin-By-Pin Core
+	Analysis Method Using Three-Dimensional Direct Response Matrix}},
+  journal = {Journal of Nuclear Science and Technology},
+  year = {2012},
+  volume = {49},
+  pages = {230--243},
+  number = {2},
+  keywords = {response matrix},
+  publisher = {Taylor \& Francis}
 }
 
 @ARTICLE{ivanova2003ice,
@@ -1229,6 +1266,9 @@
   journal = {Adv. Nucl. Sci. Technol.},
   year = {1981},
   volume = {13},
+  annote = {ANNOTE: This paper provides probably the only real "survey" of the
+	RMM. The method is described quite formally, and it is is presented
+	using diffusion theory to illustrate. },
   keywords = {response matrix},
   publisher = {ASEA-ATOM, Vasteras}
 }
@@ -1280,6 +1320,44 @@
   timestamp = {2009.12.19}
 }
 
+@INPROCEEDINGS{mitsuyasu2010acc,
+  author = { Mitsuyasu, T. and Ishii, K. and Hino, T. and Aoyama, M.},
+  title = {{Analysis Of Cold Critical Experiments By A Pin-By-Pin Core Analysis
+	Method Using A Three-Dimensional Direct Response Matrix}},
+  booktitle = {PHYSOR 2010, Pittsburgh, PA},
+  year = {2010},
+  publisher = {American Nuclear Society},
+  keywords = {response matrix},
+  owner = {Jeremy Roberts},
+  timestamp = {2009.12.02}
+}
+
+@INPROCEEDINGS{mitsuyasu2009dsh,
+  author = { Mitsuyasu, T. and Ishii, K. and Hino, T. and Aoyama, M.},
+  title = {{Development Of Spectral History Methods For Pin-By-Pin Core Analysis
+	Method Using Three-Dimensional Direct Response Matrix}},
+  booktitle = {M\&C 2009, Saratoga Springs, NY},
+  year = {2009},
+  publisher = {American Nuclear Society},
+  keywords = {response matrix},
+  owner = {Jeremy Roberts},
+  timestamp = {2009.12.02}
+}
+
+@ARTICLE{mitsuyasu2010dsh,
+  author = {Mitsuyasu, T. and Ishii, K. and Tetsushi, H. and Aoyama, M.},
+  title = {{Development of Spectral History and Pin Power Correction Methods
+	for Pin-by-Pin Core Analysis Method Using Three-Dimensional Direct
+	Response Matrix}},
+  journal = {Journal of Nuclear Science and Technology},
+  year = {2010},
+  volume = {47},
+  pages = {1124--1130},
+  number = {12},
+  keywords = {response matrix},
+  publisher = {Taylor \& Francis}
+}
+
 @ARTICLE{moore1999for,
   author = {Moore, B.R. and Turinsky, P.J. and Karve, A.A.},
   title = {{FORMOSA-B: A Boiling Water Reactor In-Core Fuel Management Optimization
@@ -1289,6 +1367,19 @@
   volume = {126},
   number = {2},
   keywords = {optimization}
+}
+
+@ARTICLE{moriwaki1999ndc,
+  author = {Moriwaki, M. and Ishii, K. and Maruyama, H. and Aoyama, M.},
+  title = {{A New Direct Calculation Method Of Response Matrices Using A Monte
+	Carlo Calculation}},
+  journal = {Journal of Nuclear Science and Technology},
+  year = {1999},
+  volume = {36},
+  pages = {877--887},
+  number = {10},
+  keywords = {response matrix},
+  publisher = {J-STAGE}
 }
 
 @ARTICLE{mosher2006ifr,
@@ -1743,15 +1834,15 @@
   year = {2012},
   publisher = {American Nuclear Society},
   abstract = {Recent work has revisited the eigenvalue response matrix method as
-	an approach for reactor core analyses.  In its most straightforward
-	form, the method consists of a two-level eigenproblem.  An outer
-	Picard iteration updates the k-eigenvalue, while the inner eigenproblem
-	imposes current continuity between coarse meshes.  In this paper,
+	an approach for reactor core analyses. In its most straightforward
+	form, the method consists of a two-level eigenproblem. An outer Picard
+	iteration updates the k-eigenvalue, while the inner eigenproblem
+	imposes current continuity between coarse meshes. In this paper,
 	several eigensolvers are evaluated for this inner problem, using
-	several 2-D diffusion benchmarks as test cases.  The results indicate
+	several 2-D diffusion benchmarks as test cases. The results indicate
 	both the explicitly-restarted Arnoldi and the Krylov-Schur methods
 	are up to an order of magnitude more efficient than power iteration.
-	 This increased efficiency makes the nested eigenvalue formulation
+	This increased efficiency makes the nested eigenvalue formulation
 	more effective than the ILU-preconditioned Newton-Krylov formulation
 	previously studied.},
   keywords = {response matrix},
