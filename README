@@ -1,0 +1,14 @@
+README -- robertsj_bib
+----------------------
+
+This is the BibTeX file I use for all papers and projects.  Where
+applicable, I've tried to add annotations, especially for papers
+related to thesis work.
+
+Note, the director "annotated" contains one or more annotated
+bibliographies.  I use JabRef as a gui to the BibTeX database.
+With that, I can search a key work and export partial databases.
+These are used in the .tex files, and the nice annotations
+are printed using the nocite command.  The plain-annote BibTeX
+style is required, but it should be widely available.
+
